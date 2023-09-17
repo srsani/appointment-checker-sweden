@@ -2,7 +2,7 @@
 
 `ps aux | grep "nohup"`
 
-`kill 63971`
+`kill 97957`
 `kill -9 PID`
 
 `ps aux | grep app.py`
