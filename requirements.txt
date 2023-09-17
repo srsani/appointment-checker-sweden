@@ -1,0 +1,7 @@
+requests==2.25.0
+selenium==3.14.0
+beautifulsoup4==4.9.3
+boto3
+botocore
+selenium-stealth==1.0.6
+twilio==6.45.2
