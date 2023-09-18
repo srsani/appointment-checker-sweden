@@ -167,4 +167,4 @@ while True:
 
     except Exception as e:
         logger.info(f"An error occurred: {e}. Retrying...")
-        time.sleep(1000)
+        time.sleep(random.randint(200, 400))
