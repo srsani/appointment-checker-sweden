@@ -147,7 +147,7 @@ while True:
         if 6 <= now.hour < 20:
 
             # Generate a random interval between 10 to 15 minutes (600 to 900 seconds)
-            interval = random.randint(600, 900)
+            interval = random.randint(200, 400)
             logger.info(f"{now} - {interval}")
             # Wait for the interval
             time.sleep(interval)
@@ -161,7 +161,7 @@ while True:
             # Calculate seconds until 8am the next day
             tomorrow = now + datetime.timedelta(days=1)
             eight_am_tomorrow = tomorrow.replace(
-                hour=8, minute=0, second=0, microsecond=0)
+                hour=7, minute=0, second=0, microsecond=0)
             sleep_seconds = (eight_am_tomorrow - now).seconds
             time.sleep(sleep_seconds)
 
